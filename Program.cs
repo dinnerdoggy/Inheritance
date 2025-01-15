@@ -1,13 +1,9 @@
-﻿namespace Garage;
+﻿using Garage;
 
-public class Zero  // Electric motorcycle
-{
-    public double BatteryKWh { get; set; }
-    public string MainColor { get; set; }
-    public int MaximumOccupancy { get; set; }
+Zero fxs = new Zero();
+Tesla modelS = new Tesla();
+Cessna mx410 = new Cessna();
 
-    public void ChargeBattery()
-    {
-        // method definition omitted
-    }
-}
+fxs.Drive();
+modelS.Drive();
+mx410.Drive();
